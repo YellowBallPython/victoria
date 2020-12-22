@@ -1,0 +1,15 @@
+{% extends 'victoria/layout.html' %}
+
+{% block title %}
+<title>Home</title>
+{% endblock title %}
+
+
+{% block body %}
+<main>
+    <section>
+        <p>Click to <a href="{% url 'victoria:reservas' %}">check Reservations</a></p>
+        <p>Click to <a href="{% url 'victoria:res_form' %}">make Reservations</a></p>
+    </section>
+</main>
+{% endblock body %}

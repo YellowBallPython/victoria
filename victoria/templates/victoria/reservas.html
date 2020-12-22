@@ -1,0 +1,17 @@
+{% extends 'victoria/layout.html' %}
+
+{% block title %}
+<title>Reservas</title>
+{% endblock title %}
+
+{% block body %}
+<main>
+    <section>
+        {% for reserva in reservas %}
+        <h3>Esta reserva pertenece a {{ reserva.owner }}.</h3>
+        <p>Para el {{ reserva.date.day }} del {{ reserva.date.month }}.</p>
+        <p>De {{ reserva.check_in }} a {{ reserva.check_out }} </p>
+        {% endfor %}
+    </section>
+</main>
+{% endblock body %}
