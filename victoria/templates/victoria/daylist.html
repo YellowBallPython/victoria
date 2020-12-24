@@ -1,0 +1,25 @@
+{% extends 'victoria/layout.html' %}
+
+{% block title %}
+<title>Reservas filtradas</title>
+{% endblock title %}
+
+{% block body %}
+<main>
+    <section>
+        <form action="{% url 'victoria:availability' %}" method="POST">
+            {% csrf_token %}
+            {{ form }}
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <section>
+        {% for reserva in reservas %}
+        <h3> Reserva de {{ reserva.owner }} </h3>
+        <p>Para el {{reserva.date.day}} del {{ reserva.date.month }}</p>
+        <h6>de {{reserva.check_in}} a {{reserva.check_out}}</h6>
+        {% endfor %}
+    </section>
+</main>
+{% endblock body %}

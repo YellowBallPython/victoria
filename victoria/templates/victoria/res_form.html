@@ -7,16 +7,11 @@
 {% block body %}
 <main>
     <section>
-        <form action="{% url 'victoria:prueba' %}" method="post">
-            {% csrf_token %}
-            <h4>Selecciona una fecha</h4>
-            <input type="date" name="date" id="d">
-            <h4>Selecciona el check in</h4><input type="time" min="09:00" max="20:00" name="check_in" id="ck_in"
-                required>
-            <h4>Selecciona el check out</h4><input type="time" name="check_out" min="10:00" max="21:00" id="ck_out"
-                required>
-            <input type="submit" value="Reservar">
-        </form>
+            <form action="{% url 'victoria:availability' %}" method="POST">
+                {% csrf_token %}
+                {{ form }}
+                <input type="submit" value="Submit">
+            </form>
     </section>
 </main>
 {% endblock body %}
