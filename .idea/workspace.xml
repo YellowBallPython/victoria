@@ -20,11 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af69ce05-60c0-4b01-9ea4-5c42fcbcadfc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/victoria/templates/victoria/completed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/victoria/templates/victoria/make.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/victoria/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/victoria/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/files/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/victoria/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/victoria/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/victoria/templates/victoria/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/victoria/templates/victoria/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/victoria/templates/victoria/prueba.html" beforeDir="false" afterPath="$PROJECT_DIR$/victoria/templates/victoria/availability.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/victoria/templates/victoria/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/victoria/templates/victoria/layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/victoria/templates/victoria/res_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/victoria/templates/victoria/res_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/victoria/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/victoria/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/victoria/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/victoria/views.py" afterDir="false" />
@@ -37,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -54,7 +56,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../djangobyexample/blog_site" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RunManager">
@@ -109,10 +111,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-878" y="148" key="FileChooserDialogImpl" timestamp="1608700031086">
+    <state x="-878" y="148" key="FileChooserDialogImpl" timestamp="1608928217301">
       <screen x="-1366" y="0" width="1366" height="728" />
     </state>
-    <state x="-878" y="148" key="FileChooserDialogImpl/0.0.1536.824/-1366.0.1366.728@-1366.0.1366.728" timestamp="1608700031086" />
+    <state x="-878" y="148" key="FileChooserDialogImpl/0.0.1536.824/-1366.0.1366.728@-1366.0.1366.728" timestamp="1608928217301" />
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/-1366.0.1366.728@0.0.1536.824" timestamp="1608435774668" />
     <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1608092413798">
       <screen x="-1366" y="0" width="1366" height="728" />

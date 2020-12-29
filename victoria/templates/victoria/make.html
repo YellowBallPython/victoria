@@ -1,20 +1,19 @@
 {% extends 'victoria/layout.html' %}
 
 {% block title %}
-<title>Reservas - Crear reserva</title>
+<title>Reserva tu espacio :)</title>
 {% endblock title %}
 
 {% block body %}
 <main>
     <section>
         <div class="form-group">
-            <form action="{% url 'victoria:availability' %}" method="POST">
+            <form action="{% url 'victoria:make' %}" method="POST">
                 {% csrf_token %}
-                {{ form }}
+                {{ form.as_table }}
                 <input type="submit" value="Submit">
             </form>
         </div>
-
     </section>
 </main>
 {% endblock body %}

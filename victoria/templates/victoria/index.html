@@ -2,14 +2,35 @@
 
 {% block title %}
 <title>Home</title>
+<style>
+    #main-c {
+        margin-top: 15px;
+    }
+</style>
 {% endblock title %}
 
 
 {% block body %}
-<main>
-    <section>
-        <p>Click to <a href="{% url 'victoria:reservas' %}">check all Reservations</a></p>
-        <p>Click to <a href="{% url 'victoria:availability' %}">check Reservations by day</a></p>
+<main class="container" id="main-c">
+    <section class="main-section">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Reservaciones por fecha.</h5>
+                        <p class="card-text">Obtén las reservas del día.</p>
+                        <a href="{% url 'victoria:availability' %}" class="btn btn-primary">Obtener</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Todas las reservaciones.</h5>
+                        <p class="card-text">Obtén la lista completa.</p>
+                        <a href="{% url 'victoria:reservas' %}" class="btn btn-primary">Obtener</a>
+                    </div>
+                </div>
     </section>
 </main>
 {% endblock body %}
