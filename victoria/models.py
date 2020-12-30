@@ -32,3 +32,6 @@ class Reserva(models.Model):
                     date__day=input_date.day
         )
         return dates
+
+    def make_res(*args, **kwargs):
+        pass
